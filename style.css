@@ -1,0 +1,46 @@
+body {
+  background-color: #eeeeee;
+  height: 100vh;
+}
+.navbar{
+  background-color: #eeeeee;
+}
+
+#heading:hover{
+  text-shadow: 2px 2px lightgrey;
+  cursor: pointer;
+  user-select: none;
+}
+
+#subheading:hover{
+  text-shadow: 2px 2px lightgrey;
+  cursor: pointer;
+  user-select: none;
+}
+
+#inbox {
+  background-color: white;
+} #inbox:hover {
+  box-shadow: 1px 1px 3px 1px;
+}
+#close:hover{
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.blue-text {
+  color: blue;
+} 
+
+.is-read {
+  background-color: #dddddd !important;
+}
+
+.is-selected {
+  background-color: rgb(117, 186, 255) !important;
+}
+
+.hidden {
+  display: none;
+}
